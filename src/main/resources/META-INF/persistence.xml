@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.ductn_IMPROOK_CARE_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.ductn.VinaVita.models.Product</class>
+    <class>com.ductn.VinaVita.models.Tag</class>
+    <class>com.ductn.VinaVita.models.SaleOrder</class>
+    <class>com.ductn.VinaVita.models.Comment</class>
+    <class>com.ductn.VinaVita.models.OrderDetail</class>
+    <class>com.ductn.VinaVita.models.Category</class>
+    <class>com.ductn.VinaVita.models.ProdTag</class>
+    <class>com.ductn.VinaVita.models.User</class>
+    <class>com.ductn.VinaVita.models.MedicalRecords</class>
+    <class>com.ductn.VinaVita.models.MedicineCategory</class>
+    <class>com.ductn.VinaVita.models.Province</class>
+    <class>com.ductn.VinaVita.models.TimeDistance</class>
+    <class>com.ductn.VinaVita.models.Clinic</class>
+    <class>com.ductn.VinaVita.models.ProfileDoctor</class>
+    <class>com.ductn.VinaVita.models.Specialty</class>
+    <class>com.ductn.VinaVita.models.Role</class>
+    <class>com.ductn.VinaVita.models.TimeSlot</class>
+    <class>com.ductn.VinaVita.models.BookingStatus</class>
+    <class>com.ductn.VinaVita.models.Schedule</class>
+    <class>com.ductn.VinaVita.models.District</class>
+    <class>com.ductn.VinaVita.models.PrescriptionDetail</class>
+    <class>com.ductn.VinaVita.models.Ward</class>
+    <class>com.ductn.VinaVita.models.Prescriptions</class>
+    <class>com.ductn.VinaVita.models.Medicine</class>
+    <class>com.ductn.VinaVita.models.Booking</class>
+    <class>com.ductn.VinaVita.models.ProfilePatient</class>
+    <class>com.ductn.VinaVita.models.Provinces</class>
+    <class>com.ductn.VinaVita.models.Districts</class>
+    <class>com.ductn.VinaVita.models.Wards</class>
+    <class>com.ductn.VinaVita.models.VietnamUnits</class>
+    <class>com.ductn.VinaVita.models.VietnamRegions</class>
+    <class>com.ductn.VinaVita.models.CollabDoctor</class>
+    <class>com.ductn.VinaVita.models.Role_1</class>
+    <class>com.ductn.VinaVita.models.User_1</class>
+    <class>com.ductn.VinaVita.models.MedicinePaymentStatus</class>
+    <class>com.ductn.VinaVita.models.CollabDoctorStatus</class>
+    <class>com.ductn.VinaVita.models.ServicePaymentStatus</class>
+    <class>com.ductn.VinaVita.models.Message</class>
+    <class>com.ductn.VinaVita.models.ChatgptQuestion</class>
+    <class>com.ductn.VinaVita.models.ChatgptConsult</class>
+    <class>com.ductn.VinaVita.models.NotificationType</class>
+    <class>com.ductn.VinaVita.models.Notification</class>
+    <class>com.ductn.VinaVita.models.PaymentHistory</class>
+    <class>com.ductn.VinaVita.models.TestService</class>
+    <class>com.ductn.VinaVita.models.TestResult</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/vinavita"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="secret"/>
+    </properties>
+  </persistence-unit>
+</persistence>
