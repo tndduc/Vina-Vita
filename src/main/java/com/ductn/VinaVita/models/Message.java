@@ -191,7 +191,7 @@ public class Message implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.Message[ messageId=" + messageId + " ]";
+        return "com.ductn.VinaVita.models.Message[ messageId=" + messageId + " ]";
     }
 
 }

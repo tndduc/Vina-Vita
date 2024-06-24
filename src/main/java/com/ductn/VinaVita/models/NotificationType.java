@@ -149,7 +149,7 @@ public class NotificationType implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.NotificationType[ notificationTypeId=" + notificationTypeId + " ]";
+        return "com.ductn.VinaVita.models.NotificationType[ notificationTypeId=" + notificationTypeId + " ]";
     }
 
 }

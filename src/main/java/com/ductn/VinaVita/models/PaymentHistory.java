@@ -289,7 +289,7 @@ public class PaymentHistory implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.PaymentHistory[ paymentHistoryId=" + paymentHistoryId + " ]";
+        return "com.ductn.VinaVita.models.PaymentHistory[ paymentHistoryId=" + paymentHistoryId + " ]";
     }
 
 }

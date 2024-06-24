@@ -146,7 +146,7 @@ public class CollabDoctorStatus implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.CollabDoctorStatus[ statusId=" + statusId + " ]";
+        return "com.ductn.VinaVita.models.CollabDoctorStatus[ statusId=" + statusId + " ]";
     }
     
 }

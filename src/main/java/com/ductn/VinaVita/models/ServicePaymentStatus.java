@@ -146,7 +146,7 @@ public class ServicePaymentStatus implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.ServicePaymentStatus[ servicePaymentStatusId=" + servicePaymentStatusId + " ]";
+        return "com.ductn.VinaVita.models.ServicePaymentStatus[ servicePaymentStatusId=" + servicePaymentStatusId + " ]";
     }
     
 }

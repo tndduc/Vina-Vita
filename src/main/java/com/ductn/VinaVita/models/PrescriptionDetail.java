@@ -192,7 +192,7 @@ public class PrescriptionDetail implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.PrescriptionDetail[ prescriptionDetailId=" + prescriptionDetailId + " ]";
+        return "com.ductn.VinaVita.models.PrescriptionDetail[ prescriptionDetailId=" + prescriptionDetailId + " ]";
     }
     
 }

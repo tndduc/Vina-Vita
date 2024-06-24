@@ -167,7 +167,7 @@ public class Districts implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.Districts[ code=" + code + " ]";
+        return "com.ductn.VinaVita.models.Districts[ code=" + code + " ]";
     }
     
 }

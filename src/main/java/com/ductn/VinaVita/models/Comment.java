@@ -180,7 +180,7 @@ public class Comment implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.Comment[ commentId=" + commentId + " ]";
+        return "com.ductn.VinaVita.models.Comment[ commentId=" + commentId + " ]";
     }
 
 }

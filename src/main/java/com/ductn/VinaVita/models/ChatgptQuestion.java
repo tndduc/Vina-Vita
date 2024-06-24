@@ -146,7 +146,7 @@ public class ChatgptQuestion implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.ChatgptQuestion[ chatgptQuestionId=" + chatgptQuestionId + " ]";
+        return "com.ductn.VinaVita.models.ChatgptQuestion[ chatgptQuestionId=" + chatgptQuestionId + " ]";
     }
     
 }

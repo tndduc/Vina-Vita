@@ -336,7 +336,7 @@ public class ProfileDoctor implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.ProfileDoctor[ profileDoctorId=" + profileDoctorId + " ]";
+        return "com.ductn.VinaVita.models.ProfileDoctor[ profileDoctorId=" + profileDoctorId + " ]";
     }
     
 }

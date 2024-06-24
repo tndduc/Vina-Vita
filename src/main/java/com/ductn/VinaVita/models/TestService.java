@@ -148,7 +148,7 @@ public class TestService implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.TestService[ testServiceId=" + testServiceId + " ]";
+        return "com.ductn.VinaVita.models.TestService[ testServiceId=" + testServiceId + " ]";
     }
 
 }

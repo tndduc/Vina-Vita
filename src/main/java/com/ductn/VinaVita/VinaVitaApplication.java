@@ -8,10 +8,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class ImprookCareApplication {
+public class VinaVitaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ImprookCareApplication.class, args);
+        SpringApplication.run(VinaVitaApplication.class, args);
 
         System.out.println("OpenJDK Version: " + System.getProperty("java.version"));
         System.out.println("Twilio SDK Version: " + Twilio.VERSION);

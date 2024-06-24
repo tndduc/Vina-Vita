@@ -157,7 +157,7 @@ public class MedicalRecords implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.MedicalRecords[ recordId=" + recordId + " ]";
+        return "com.ductn.VinaVita.models.MedicalRecords[ recordId=" + recordId + " ]";
     }
     
 }

@@ -217,7 +217,7 @@ public class Medicine implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.Medicine[ medicineId=" + medicineId + " ]";
+        return "com.ductn.VinaVita.models.Medicine[ medicineId=" + medicineId + " ]";
     }
     
 }

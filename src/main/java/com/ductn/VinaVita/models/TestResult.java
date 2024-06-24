@@ -190,7 +190,7 @@ public class TestResult implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.TestResult[ testResultId=" + testResultId + " ]";
+        return "com.ductn.VinaVita.models.TestResult[ testResultId=" + testResultId + " ]";
     }
 
 }

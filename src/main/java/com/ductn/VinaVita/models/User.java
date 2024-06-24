@@ -282,7 +282,7 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.User[ userId=" + userId + " ]";
+        return "com.ductn.VinaVita.models.User[ userId=" + userId + " ]";
     }
 
 }

@@ -168,7 +168,7 @@ public class ChatgptConsult implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.ChatgptConsult[ chatgptConsultId=" + chatgptConsultId + " ]";
+        return "com.ductn.VinaVita.models.ChatgptConsult[ chatgptConsultId=" + chatgptConsultId + " ]";
     }
 
 }

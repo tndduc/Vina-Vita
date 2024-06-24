@@ -4,13 +4,13 @@
  */
 package com.ductn.VinaVita.controllers;
 
-// import com.tuantran.IMPROOK_CARE.components.twilio.SmsService;
+// import com.ductn.VinaVita.components.twilio.SmsService;
 import com.ductn.VinaVita.components.twilio.TwilioVerificationComponent;
 import com.ductn.VinaVita.configs.twilio.TwilioConfiguration;
 import com.ductn.VinaVita.configs.twilio.TwilioSmsSender;
 import com.ductn.VinaVita.dto.AuthMessageTwilioDTO;
 import com.ductn.VinaVita.dto.SmsRequestDTO;
-// import com.tuantran.IMPROOK_CARE.service.UserService;
+// import com.ductn.VinaVita.service.UserService;
 import jakarta.validation.Valid;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;

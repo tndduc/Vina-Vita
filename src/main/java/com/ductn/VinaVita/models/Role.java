@@ -146,7 +146,7 @@ public class Role implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.Role[ roleId=" + roleId + " ]";
+        return "com.ductn.VinaVita.models.Role[ roleId=" + roleId + " ]";
     }
     
 }

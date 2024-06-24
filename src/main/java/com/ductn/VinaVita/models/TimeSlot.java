@@ -196,7 +196,7 @@ public class TimeSlot implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.TimeSlot[ timeSlotId=" + timeSlotId + " ]";
+        return "com.ductn.VinaVita.models.TimeSlot[ timeSlotId=" + timeSlotId + " ]";
     }
 
 }

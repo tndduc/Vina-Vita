@@ -182,7 +182,7 @@ public class Schedule implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.Schedule[ scheduleId=" + scheduleId + " ]";
+        return "com.ductn.VinaVita.models.Schedule[ scheduleId=" + scheduleId + " ]";
     }
     
 }

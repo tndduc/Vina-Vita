@@ -170,7 +170,7 @@ public class VietnamUnits implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.VietnamUnits[ id=" + id + " ]";
+        return "com.ductn.VinaVita.models.VietnamUnits[ id=" + id + " ]";
     }
     
 }

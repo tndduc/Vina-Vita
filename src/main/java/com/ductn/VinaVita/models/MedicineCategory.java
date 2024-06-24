@@ -146,7 +146,7 @@ public class MedicineCategory implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.MedicineCategory[ categoryId=" + categoryId + " ]";
+        return "com.ductn.VinaVita.models.MedicineCategory[ categoryId=" + categoryId + " ]";
     }
     
 }

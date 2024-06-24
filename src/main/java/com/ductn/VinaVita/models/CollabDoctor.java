@@ -156,7 +156,7 @@ public class CollabDoctor implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.CollabDoctor[ collabId=" + collabId + " ]";
+        return "com.ductn.VinaVita.models.CollabDoctor[ collabId=" + collabId + " ]";
     }
     
 }

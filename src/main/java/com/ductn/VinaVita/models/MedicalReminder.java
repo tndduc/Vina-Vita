@@ -161,7 +161,7 @@ public class MedicalReminder implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.MedicalReminder[ medicalReminderId=" + medicalReminderId + " ]";
+        return "com.ductn.VinaVita.models.MedicalReminder[ medicalReminderId=" + medicalReminderId + " ]";
     }
 
 }

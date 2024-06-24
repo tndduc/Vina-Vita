@@ -146,7 +146,7 @@ public class BookingStatus implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.BookingStatus[ statusId=" + statusId + " ]";
+        return "com.ductn.VinaVita.models.BookingStatus[ statusId=" + statusId + " ]";
     }
     
 }

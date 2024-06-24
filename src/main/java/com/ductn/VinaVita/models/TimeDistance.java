@@ -146,7 +146,7 @@ public class TimeDistance implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.TimeDistance[ timeDistanceId=" + timeDistanceId + " ]";
+        return "com.ductn.VinaVita.models.TimeDistance[ timeDistanceId=" + timeDistanceId + " ]";
     }
     
 }

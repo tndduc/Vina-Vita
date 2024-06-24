@@ -169,7 +169,7 @@ public class Specialty implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.Specialty[ specialtyId=" + specialtyId + " ]";
+        return "com.ductn.VinaVita.models.Specialty[ specialtyId=" + specialtyId + " ]";
     }
     
 }

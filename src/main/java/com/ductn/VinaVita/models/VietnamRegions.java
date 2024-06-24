@@ -134,7 +134,7 @@ public class VietnamRegions implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.VietnamRegions[ id=" + id + " ]";
+        return "com.ductn.VinaVita.models.VietnamRegions[ id=" + id + " ]";
     }
     
 }

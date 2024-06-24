@@ -153,7 +153,7 @@ public class Wards implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.Wards[ code=" + code + " ]";
+        return "com.ductn.VinaVita.models.Wards[ code=" + code + " ]";
     }
     
 }

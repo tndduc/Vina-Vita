@@ -226,7 +226,7 @@ public class Booking implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.Booking[ bookingId=" + bookingId + " ]";
+        return "com.ductn.VinaVita.models.Booking[ bookingId=" + bookingId + " ]";
     }
 
 }

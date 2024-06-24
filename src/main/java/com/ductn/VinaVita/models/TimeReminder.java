@@ -160,7 +160,7 @@ public class TimeReminder implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.TimeReminder[ timeReminderId=" + timeReminderId + " ]";
+        return "com.ductn.VinaVita.models.TimeReminder[ timeReminderId=" + timeReminderId + " ]";
     }
 
 }

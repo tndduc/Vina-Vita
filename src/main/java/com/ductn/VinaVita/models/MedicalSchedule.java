@@ -192,7 +192,7 @@ public class MedicalSchedule implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.MedicalSchedule[ medicalScheduleId=" + medicalScheduleId + " ]";
+        return "com.ductn.VinaVita.models.MedicalSchedule[ medicalScheduleId=" + medicalScheduleId + " ]";
     }
 
 }

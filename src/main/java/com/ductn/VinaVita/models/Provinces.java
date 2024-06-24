@@ -170,7 +170,7 @@ public class Provinces implements Serializable {
 
     @Override
     public String toString() {
-        return "com.tuantran.IMPROOK_CARE.models.Provinces[ code=" + code + " ]";
+        return "com.ductn.VinaVita.models.Provinces[ code=" + code + " ]";
     }
 
 }
