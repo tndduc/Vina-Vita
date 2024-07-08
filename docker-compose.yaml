@@ -1,19 +1,20 @@
 services:
-  postgres:
-    image: postgres:13.11-bullseye
-    container_name: java-spring-boot-vinavita-postgres
+
+  mysql:
+    image: mysql:8.0
+    container_name: java-spring-boot-vinavita-mysql
     restart: always
     environment:
-      POSTGRES_DB: vinavita
-      POSTGRES_PASSWORD: secret
-      POSTGRES_USER: postgres
+      MYSQL_DATABASE: vinavita
+      MYSQL_ROOT_PASSWORD: secret
     ports:
-      - '5432:5432'
+      - '3306:3306'
     volumes:
-      - postgres-data:/var/lib/postgresql/data
-      - ./var/logs/postgresql:/var/log/postgresql
+      - mysql-data:/var/lib/mysql
+      - ./var/logs/mysql:/var/log/mysql
     networks:
       - java-spring-boot-vinavita-network
+
   redis:
     image: redis:7.0.12-alpine
     container_name: java-spring-boot-vinavita-redis
@@ -25,6 +26,7 @@ services:
       - '6379:6379'
     networks:
       - java-spring-boot-vinavita-network
+
   redis-commander:
     image: rediscommander/redis-commander:redis-commander-210
     restart: always
@@ -40,30 +42,25 @@ services:
       - '6380:8081'
     networks:
       - java-spring-boot-vinavita-network
-#  mailhog:
-#    image: mailhog/mailhog:latest
-#    container_name: java-spring-boot-vinavita-mailhog
-#    restart: always
-#    ports:
-#      - '8025:8025'
-#      - '1025:1025'
-#    networks:
-#      - java-spring-boot-vinavita-network
-  pgadmin4:
-    image: dpage/pgadmin4
-    container_name: java-spring-boot-vinavita-pgadmin4
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: java-spring-boot-vinavita-phpmyadmin
     restart: always
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin@example.com
-      PGADMIN_DEFAULT_PASSWORD: admin
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: secret
     ports:
-      - '5050:80'
+      - '8080:80'
     networks:
       - java-spring-boot-vinavita-network
+
 volumes:
-  postgres-data:
+  mysql-data:
   redis-data:
-  pgadmin4:
+
 networks:
   java-spring-boot-vinavita-network:
     driver: bridge

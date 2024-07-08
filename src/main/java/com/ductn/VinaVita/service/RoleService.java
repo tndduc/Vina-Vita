@@ -15,8 +15,8 @@ import java.util.List;
 
 public interface RoleService {
     Role findRoleByRoleNameAndActiveTrue(String roleName);
-
+    List<Role> saveList(List<Role> roleList);
     Role findRoleByRoleIdAndActiveTrue(int roleId);
-
+    long count();
     List<Role> findRoleByActiveTrue();
 }

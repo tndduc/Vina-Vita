@@ -39,6 +39,11 @@ public class RoleServiceImpl implements RoleService {
     }
 
     @Override
+    public List<Role> saveList(List<Role> roleList) {
+        return roleRepository.saveAll(roleList);
+    }
+
+    @Override
     public Role findRoleByRoleIdAndActiveTrue(int roleId) {
         try {
             Optional<Role> roleOptional = this.roleRepository.findRoleByRoleIdAndActiveTrue(roleId);
@@ -50,6 +55,11 @@ public class RoleServiceImpl implements RoleService {
         } catch (NoSuchElementException ex) {
             return null;
         }
+    }
+
+    @Override
+    public long count() {
+        return roleRepository.count();
     }
 
     @Override

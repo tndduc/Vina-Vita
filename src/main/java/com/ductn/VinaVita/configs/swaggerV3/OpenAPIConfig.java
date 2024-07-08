@@ -40,14 +40,14 @@ public class OpenAPIConfig {
         prodServer.setDescription("Server URL in Production environment");
 
         Contact contact = new Contact();
-        contact.setEmail("2051050549tuan@ou.edu.vn");
-        contact.setName("Trần Đăng Tuấn");
-        contact.setUrl("https://www.facebook.com/TuanTran0168");
+        contact.setEmail("tnd.duc@gmail.com");
+        contact.setName("Trần Ngọc Đức");
+        contact.setUrl("https://www.facebook.com/tnd.duc");
 
         License mitLicense = new License().name("MIT License").url("https://choosealicense.com/licenses/mit/");
 
         Info info = new Info()
-                .title("Tutorial Management API")
+                .title("Vina Vita API")
                 .version("1.0")
                 .contact(contact)
                 .description("This API exposes endpoints to manage tutorials.").termsOfService("https://www.facebook.com/TuanTran0168")

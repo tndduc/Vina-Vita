@@ -16,6 +16,6 @@ public class VinaVitaApplication {
         System.out.println("OpenJDK Version: " + System.getProperty("java.version"));
         System.out.println("Twilio SDK Version: " + Twilio.VERSION);
         System.out.println("RUN COMPLETED AT: " + new Date());
-        System.out.println("OK EM");
+        System.out.println("OK Ngok Duk");
     }
 }
